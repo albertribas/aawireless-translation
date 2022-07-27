@@ -4,14 +4,14 @@
     <string name="step">Pas %1$d / %2$d</string>
     <string name="start">Engega</string>
     <string name="connect_phone">Si us plau, en primer lloc, engega el teu vehicle i connecta el teu mòbil utilitzant un cable USB.</string>
-    <string name="to_begin">Per començar a configurar el teu dispositiu, si us plau, assegura't que la opció Android Auto sense fil està activada dins d'Android Auto</string>
+    <string name="to_begin">Per començar a configurar el teu dispositiu, si us plau, assegura't que la opció Android Auto sense fils està activada dins d'Android Auto</string>
     <string name="plug_in_aaw">Desconnecta el teu mòbil i connecta el dispositiu AAWireless.</string>
 
-    <string name="if_not">Si la opció \"Android Auto sense fil\" no és visible, hauràs d'activar-la des d'Opcions de programador, si us plau, segueix aquests passos:
+    <string name="if_not">Si la opció \"Android Auto sense fils\" no és visible, hauràs d'activar-la des d'Opcions de programador, si us plau, segueix aquests passos:
         \n
         \nA les opcions d'Android Auto, toca la secció Versió durant 10 vegades seguides.
         \nConfirma que vols activar les Opcions de programador.
-        \nDes del menú superior dret, selecciona \"Opcions de programador\" i després activa \"Afegeix la projecció sense fil a la configuració\"
+        \nDes del menú superior dret, selecciona \"Opcions de programador\" i després activa \"Afegeix la projecció sense fils a la configuració\"
         \n
         \n<p>Veure les imatges a continuació:</p>
 </string>
@@ -51,7 +51,7 @@
     <string name="vag_crash_fix_desc">Aquesta opció proporciona una solució per a un error amb les unitats VAG Technisat que fan que aquestes donin error o es reiniciin quan es canvia o es pausa una cançó en qualsevol aplicació de música. Si us plau, no habilitis aquesta opció en altres vehicles ja que pot causar problemes.</string>
     <string name="usb_mode">Mode USB</string>
     <string name="usb_mode_desc">Canvia aquesta opció únicament si el LED del dispositiu AAWireless només parpelleja en blau.</string>
-    <string name="wifisetting">Configuració Wi-Fi</string>
+    <string name="wifisetting">Configuració Wifi</string>
     <string name="dpi">Modificar DPI</string>
     <string name="dpi_desc">Deixa el valor a 0 per tenir el DPI per defecte del vehicle</string>
     <string name="remove_tap">Eliminar restricció de toc</string>
@@ -62,7 +62,7 @@
     <string name="tts_sink_desc">Quan aquesta opció està habilitada, permet reproduir el so de la navegació GPS a través d'un receptor Bluetooth diferent</string>
     <string name="auto_video_focus">Focus de vídeo automàtic</string>
     <string name="auto_video_focus_desc">Aquesta opció farà la petició de vídeo a l'inici, fent que Android Auto s'obri immediatament al connectar, enlloc d'haver de prémer primer un botó a la pantalla. Això pot no funcionar en tots els vehicles.</string>
-    <string name="wifi_connect_timeout">Temps d'espera de connexió Wi-Fi</string>
+    <string name="wifi_connect_timeout">Temps d'espera de connexió Wifi</string>
     <string name="wifi_connect_timeout_desc">Modifica aquest valor si el dispositiu tarda molt temps en connectar. El temps està definit en mil·lisegons.</string>
     <string name="prefer_last_connected_phone">Preferir l'últim mòbil connectat</string>
     <string name="developerMode">Mode desenvolupador</string>
@@ -101,7 +101,7 @@
     <string name="ota_update_complete">Actualització completada</string>
     <string name="ota_update_failed">L'actualització ha fallat</string>
     <string name="ota_connecting_to_device">S'està connectant al dispositiu</string>
-    <string name="ota_download_pending">La descàrrega començarà quan hi hagi connexió Wi-Fi</string>
+    <string name="ota_download_pending">La descàrrega començarà quan hi hagi connexió Wifi</string>
     <string name="ota_update_available">Actualització disponible</string>
     <string name="ota_no_update_available">No hi ha cap actualització disponible</string>
     <string name="ota_getting_version_info">Obtenint informació de la versió...</string>
@@ -116,152 +116,152 @@
 
     <string name="ota_metered_network">Estàs connectat a una xarxa mesurada, estàs segur que vols baixar aquesta actualització ara? Pots programar-la o descarregar-la ara mateix.</string>
 
-    <string name="wifi_client_desc">WiFi client mode allows the use of an existing WiFi network such as an in-car hotspot. Using this mode will disable start/stop and auto-connect. </string>
-    <string name="wifi_client_ssid">Client SSID</string>
-    <string name="wifi_client_ssid_desc">Please enter the client network name</string>
-    <string name="wifi_client_pass">Client Password</string>
-    <string name="wifi_client_pass_desc">Please enter the client network password</string>
-    <string name="wifi_channel">WiFi Channel</string>
+    <string name="wifi_client_desc">El mode de client Wifi permet l'ús d'una xarxa Wifi existent, com per exemple un punt d'accés del vehicle. L'ús d'aquest mode desactivarà l'Start / Stop i la connexió automàtica.</string>
+    <string name="wifi_client_ssid">SSID client</string>
+    <string name="wifi_client_ssid_desc">Si us plau, introdueix el nom de la xarxa client</string>
+    <string name="wifi_client_pass">Contrasenya client</string>
+    <string name="wifi_client_pass_desc">Si us plau, introdueix la contrasenya de la xarxa client</string>
+    <string name="wifi_channel">Canal Wifi</string>
     <!-- TODO: review this text - needs to transfer responsibility for adherence to WiFi regulations to user -->
-    <string name="country_setting_desc">Set the country to determine local WiFi regulations. It is the responsibility of the user to ensure that the appropriate country is set to adhere to local regulations. After changing the country, the device will reboot.</string>
-    <string name="country">Country</string>
-    <string name="country_desc">Please select the appropriate country</string>
-    <string name="requires_v2">Some of the options below require firmware 2.0.0 or higher.</string>
+    <string name="country_setting_desc">Estableix el país per determinar les regulacions locals de Wi-Fi. És responsabilitat de l'usuari assegurar-se de seleccionar el país adequat per complir les normatives locals. Després de canviar el país, el dispositiu es reiniciarà.</string>
+    <string name="country">País</string>
+    <string name="country_desc">Selecciona el país adequat</string>
+    <string name="requires_v2">Algunes de les opcions següents requereixen el firmware 2.0.0 o superior.</string>
 
     <string name="see_faq">F.A.Q.</string>
-    <string name="bug_report_available">Bug report available</string>
-    <string name="start_debug_mode">Start debug mode</string>
-    <string name="stop_debug_mode">Stop debug mode and create bug report</string>
-    <string name="send_mail">Send e-mail</string>
-    <string name="bug_report_nag">Please only create a bug report when support asks to create a bug report. Bug reports without support ticket are not processed.</string>
-    <string name="bug_report">Bug report</string>
-    <string name="bug_report_desc">To create a bug report, please press the "Start debug mode" button below. When the problem has occurred, press the "Stop debug mode" button below. After the bug report is created a new screen will open, in this screen you will be able to send the bug report. Please only use this functionality when support asks for it.</string>
-    <string name="downloading_log">Downloading log</string>
-    <string name="download_log_failed">Log download failed</string>
-    <string name="log_download_notification_channel_name">Bug report</string>
-    <string name="issue_description">Please fill in a description of the issue.</string>
-    <string name="send">Send</string>
-    <string name="support_request_for" translatable="false">Support request for %s</string>
-    <string name="could_not_get_debug_status">Could not get debugging status, is your AAWireless device powered on?</string>
-    <string name="submit">Submit</string>
+    <string name="bug_report_available">Informe d'error disponible</string>
+    <string name="start_debug_mode">Inicia el mode de depuració</string>
+    <string name="stop_debug_mode">Atura el mode de depuració i crea un informe d'error</string>
+    <string name="send_mail">Envia un correu electrònic</string>
+    <string name="bug_report_nag">Si us plau, crea un informe d'error només quan el suport tècnic t'ho demani. Els informes d'errors sense tiquet de suport no es processen.</string>
+    <string name="bug_report">Informe d'error</string>
+    <string name="bug_report_desc">Per crear un informe d'error, prem el botó "Inicia el mode de depuració" a continuació. Quan s'hagi produït el problema, prem el botó "Atura el mode de depuració" a continuació. Després de crear l'informe d'error, s'obrirà una nova pantalla, en aquesta pantalla podràs enviar l'informe d'error. Si us plau, utilitza aquesta funcionalitat només quan el suport tècnic ho demani.</string>
+    <string name="downloading_log">Registre de descàrrega</string>
+    <string name="download_log_failed">La descàrrega del registre ha fallat</string>
+    <string name="log_download_notification_channel_name">Informe d'error</string>
+    <string name="issue_description">Si us plau, fes una descripció del problema.</string>
+    <string name="send">Enviar</string>
+    <string name="support_request_for" translatable="false">Sol·licitud de suport per %s</string>
+    <string name="could_not_get_debug_status">No s'ha pogut obtenir l'estat de depuració, el dispositiu AAWireless està encès?</string>
+    <string name="submit">Enviar</string>
 
-    <string name="could_not_get_settings">Could not get settings, is your device powered on?</string>
-    <string name="could_not_save_settings">Could not save settings, is your device powered on?</string>
+    <string name="could_not_get_settings">No s'ha pogut obtenir la configuració, el dispositiu està encès?</string>
+    <string name="could_not_save_settings">No s'ha pogut desar la configuració, el dispositiu està encès?</string>
 
-    <string name="an_error_occurred_please_try_again">An error occurred, please try again</string>
+    <string name="an_error_occurred_please_try_again">S'ha produït un error, torna-ho a provar</string>
     <string name="start_stop">Start / Stop</string>
-    <string name="start_stop_draw_over_other_apps">For using the start stop feature we need the "Display over other apps" permission.\n\nIn the "Display over other apps" settings screen, please look for AAWireless and allow drawing over other apps.</string>
-    <string name="start_stop_desc">If your vehicle keeps the USB port always powered on, you can disable auto connect and select the car\'s handsfree connection to start / stop the Android Auto connection.</string>
-    <string name="enable_start_stop">Enable start / stop</string>
-    <string name="device_hfp_controlled">Device HFP controlled (experimental)</string>
-    <string name="device_usb_controlled">Device USB controlled (experimental)</string>
-    <string name="select_car_or_headunit">Select car / head unit</string>
-    <string name="permission_needed">Permission needed</string>
-    <string name="permission_required">Permission required</string>
+    <string name="start_stop_draw_over_other_apps">Per utilitzar la funció d'Start / Stop necessitem el permís "Mostra sobre altres aplicacions".\n\nA la pantalla de configuració "Mostra sobre altres aplicacions", si us plau, busca AAWireless i habilita permetre dibuixar sobre altres aplicacions.</string>
+    <string name="start_stop_desc">Si el teu vehicle manté el port USB sempre encès, pots desactivar la connexió automàtica i seleccionar la connexió mans lliures del vehicle per iniciar/aturar la connexió Android Auto.</string>
+    <string name="enable_start_stop">Habilitar Start / Stop</string>
+    <string name="device_hfp_controlled">Dispositiu controlat per HFP (experimental)</string>
+    <string name="device_usb_controlled">Dispositiu controlat per USB (experimental)</string>
+    <string name="select_car_or_headunit">Seleccionar vehicle / unitat principal</string>
+    <string name="permission_needed">Permís necessari</string>
+    <string name="permission_required">Permís requerit</string>
 
-    <string name="connecting_to_device">Connecting to device</string>
-    <string name="delay_connect_to_device">Delaying connect to device</string>
-    <string name="connection_lost_reconnecting_to_device">Connection lost, reconnecting to device</string>
-    <string name="connected_to_device">Connected to device</string>
-    <string name="disconnecting_from_device">Disconnecting from device</string>
-    <string name="wifi_not_enabled">WiFi not enabled, please enable WiFi</string>
-    <string name="draw_overlays_not_enabled">Draw overlays not enabled, please enable</string>
-    <string name="idle">Idle</string>
-    <string name="stop">Stop</string>
-    <string name="restart">Restart</string>
-    <string name="enable_wifi">Enable WiFi</string>
-    <string name="enable_draw_overlays">Enable draw overlays</string>
+    <string name="connecting_to_device">S'està connectant al dispositiu</string>
+    <string name="delay_connect_to_device">S'està retardant la connexió al dispositiu</string>
+    <string name="connection_lost_reconnecting_to_device">S'ha perdut la connexió, reconnectant al dispositiu</string>
+    <string name="connected_to_device">Connectat al dispositiu</string>
+    <string name="disconnecting_from_device">S'està desconnectant del dispositiu</string>
+    <string name="wifi_not_enabled">El Wifi no està activat, si us plau, activa el Wifi</string>
+    <string name="draw_overlays_not_enabled"Les superposicions de dibuix no estan habilitades, si us plau, activa-les</string>
+    <string name="idle">Inactiu</string>
+    <string name="stop">Atura</string>
+    <string name="restart">Reinicia</string>
+    <string name="enable_wifi">Activa el Wifi</string>
+    <string name="enable_draw_overlays">Activa les superposicions de dibuix</string>
 
-    <string name="already_a_device">Already have an AAWireless device? Get started!</string>
+    <string name="already_a_device">Ja tens un dispositiu AAWireless? Comencem!</string>
 
-    <string name="invalid_email_address">Invalid e-mail address</string>
-    <string name="required_field">This field is required</string>
-    <string name="lets_start">Let\'s start</string>
-    <string name="go_to_settings">Go to settings</string>
-    <string name="welcome">Welcome</string>
-    <string name="this_is_aawireless">To the companion app of AAWireless, the very first Android Auto Wireless dongle.</string>
-    <string name="system_update">System update</string>
-    <string name="select_device">Select device</string>
-    <string name="setting_not_available">Setting not available</string>
-    <string name="setting_not_available_desc">This setting is only available on firmware 2.0.0 or greater. Firmware 2.0.0 will be released shortly.</string>
-    <string name="start_stop_not_available_desc">Start/Stop cannot be used in combination with WiFi Client Mode.</string>
-    <string name="menu_not_available">Menu not available</string>
-    <string name="menu_not_available_desc">This menu is only available on firmware 2.0.0 or greater. Firmware 2.0.0 will be released shortly.</string>
-    <string name="enabled">Enabled</string>
-    <string name="disabled">Disabled</string>
-    <string name="could_not_change_debug_mode">Could not change debug mode</string>
-    <string name="could_not_get_device_information">Could not get device information, is your device powered on?</string>
-    <string name="could_not_send_bug_report">Could not send bug report.</string>
-    <string name="bluetooth_permission">To able the use the app we need access to bluetooth, please grant access to bluetooth.</string>
-    <string name="exit">Exit</string>
-    <string name="grant">Grant</string>
-    <string name="wifi_mode">WiFi mode</string>
-    <string name="wifi_band">WiFi frequency band</string>
+    <string name="invalid_email_address">Correu electrònic invàlid</string>
+    <string name="required_field">Aquest camp és obligatori</string>
+    <string name="lets_start">Comencem</string>
+    <string name="go_to_settings">Vés a la configuració</string>
+    <string name="welcome">Benvingut</string>
+    <string name="this_is_aawireless">A l'aplicació complementària d'AAWireless, el primer Dongle sense fils d'Android Auto.</string>
+    <string name="system_update">Actualització del sistema</string>
+    <string name="select_device">Selecciona el dispositiu</string>
+    <string name="setting_not_available">Configuració no disponible</string>
+    <string name="setting_not_available_desc">Aquesta configuració només està disponible al firmware 2.0.0 o superior. El firmware 2.0.0 es llançarà aviat.</string>
+    <string name="start_stop_not_available_desc">Start/Stop no es pot utilitzar en combinació amb el mode de client Wifi.</string>
+    <string name="menu_not_available">Menú no disponible</string>
+    <string name="menu_not_available_desc">Aquest menú només està disponible al firmware 2.0.0 o superior. El firmware 2.0.0 es llançarà aviat.</string>
+    <string name="enabled">Habilitat</string>
+    <string name="disabled">Deshabilitat</string>
+    <string name="could_not_change_debug_mode">No s'ha pogut canviar el mode de depuració</string>
+    <string name="could_not_get_device_information">No s'ha pogut obtenir la informació del dispositiu, el dispositiu està encès?</string>
+    <string name="could_not_send_bug_report">No s'ha pogut enviar l'informe d'error.</string>
+    <string name="bluetooth_permission">Per poder utilitzar l'aplicació necessitem accés al Bluetooth, si us plau, concedeix-nos accés al Bluetooth.</string>
+    <string name="exit">Sortir</string>
+    <string name="grant">Permetre</string>
+    <string name="wifi_mode">Mode Wifi</string>
+    <string name="wifi_band">Banda de freqüència Wifi</string>
     <string name="client">Client</string>
-    <string name="hotspot">Hotspot</string>
-    <string name="wifi_24ghz">2.4 Ghz</string>
-    <string name="wifi_5ghz">5 Ghz</string>
-    <string name="order_now">Order now!</string>
+    <string name="hotspot">Punt d'accés</string>
+    <string name="wifi_24ghz">2.4 GHz</string>
+    <string name="wifi_5ghz">5 GHz</string>
+    <string name="order_now">Compra'l ara!</string>
 
     <!-- Paired phone management -->
-    <string name="paired_phones">Paired phones</string>
-    <string name="unpair_phone">Unpair phone</string>
-    <string name="increase_priority">Increase priority</string>
-    <string name="decrease_priority">Decrease priority</string>
-    <string name="paired_phones_non_functional_warning">With start / stop mode or dongle mode enabled phone prioritization is not functional. For prioritizing phones with start / stop or dongle mode enabled please prioritize phone handsfree connections on your car radio if possible.</string>
+    <string name="paired_phones">Mòbils aparellats</string>
+    <string name="unpair_phone">Desvincular el mòbil</string>
+    <string name="increase_priority">Augmenta la prioritat</string>
+    <string name="decrease_priority">Disminueix la prioritat</string>
+    <string name="paired_phones_non_functional_warning">Amb el mode d'Start / Stop o el mode Dongle habilitat, la priorització del mòbil no funciona. Per prioritzar els mòbils amb el mode d'Start / Stop o Dongle activat, prioritzeu la connexió de mans lliures del mòbil a la ràdio del vehicle, en cas que sigui possible.</string>
 
-    <string name="unstable_warning" tools:ignore="MissingTranslation">This is an (potentially) unstable development version of the AAWireless app. There can be bugs or features which don\'t work correctly yet. If you want a stable version of the app, please delete your Firebase App Distribution tester account and download the AAWireless app from the Play Store.\n\nTo delete your account, please click the \"Delete account\" button below, login with your Google Account and press the \"Delete Account\" button on the webpage.</string>
-    <string name="delete_account" tools:ignore="MissingTranslation">Delete account</string>
+    <string name="unstable_warning" tools:ignore="MissingTranslation">Aquesta és una versió de desenvolupament (potencialment) inestable de l'aplicació AAWireless. Pot haver-hi errors o funcions que encara no funcionen correctament. Si vols una versió estable de l'aplicació, elimina el teu compte de prova de Firebase App Distribution i descarrega l'aplicació AAWireless de la Play Store.\n\nPer eliminar el teu compte, fes clic al botó \"Eliminar compte\" que hi ha a continuació, inicia la sessió amb teu compte de Google i prem el botó \"Eliminar compte\" a la pàgina web.</string>
+    <string name="delete_account" tools:ignore="MissingTranslation">Eliminar compte</string>
 
     <!-- Widget TODO: translate -->
-    <string name="widget_override">Phone override</string>
-    <string name="widget_override_desc">Phone connection override widget</string>
+    <string name="widget_override">Exclusió de mòbil</string>
+    <string name="widget_override_desc">Widget d'exclusió de connexió de mòbil</string>
     <string name="widget_override_device_name">Pixel 6</string>
-    <string name="title_activity_widget_override_connection">Phone override widget configuration</string>
-    <string name="widget_force_connect">Force connect</string>
-    <string name="widget_force_connect_desc">Device force connection widget</string>
+    <string name="title_activity_widget_override_connection">Configuració del widget Exclusió de mòbil</string>
+    <string name="widget_force_connect">Forçar la connexió</string>
+    <string name="widget_force_connect_desc">Widget de forçar la connexió del dispositiu</string>
     <string name="widget_force_connect_device_name">AndroidAuto-AAW123</string>
-    <string name="title_activity_widget_force_connection">Device force connection widget configuration</string>
+    <string name="title_activity_widget_force_connection">Configuració del widget Forçar la connexió del dispositiu</string>
 
     <!-- Troubleshooting -->
-    <string name="troubleshooting">Troubleshooting</string>
-    <string name="led_color_title">LED color?</string>
-    <string name="led_color_desc">Can you please check the LED color of the device?</string>
-    <string name="led_blinking_green">Blinking green</string>
-    <string name="no_blinking_green">No, it\'s blinking green</string>
-    <string name="led_blinking_blue">Blinking blue</string>
-    <string name="no_blinking_blue">No, it\'s blinking blue</string>
-    <string name="led_solid_blue">Solid blue</string>
-    <string name="no_solid_blue">No, it\'s solid blue</string>
-    <string name="led_solid_green">Solid green</string>
-    <string name="led_solid_white">Solid white</string>
-    <string name="is_wifi_visible_title">Is Wi-Fi visible?</string>
-    <string name="wireless_projection_auto_title">Wireless Projection</string>
-    <string name="wireless_projection_auto_desc">Please ensure Wireless Projection is enabled by following the instructions below. Afterwards please press the \"Next\" button.</string>
-    <string name="contact_support">Contact support</string>
-    <string name="other_issue">Other issues</string>
-    <string name="change_bandwidth_title">Wi-Fi 2.4 GHz</string>
-    <string name="change_bandwidth_desc">Your phone may only support 2.4Ghz Wi-Fi. Please use the button below to set the device to use 2.4GHz Wi-Fi.</string>
-    <string name="contact_support_title">Contact support</string>
-    <string name="contact_support_desc">Please contact support for further assistance.</string>
-    <string name="does_not_work_over_usb_title">Wired connection</string>
-    <string name="does_not_work_over_usb_desc">When you connect your phone via wired USB connection, does Android Auto work as expected?</string>
-    <string name="is_wifi_visible_desc">Please open Wi-Fi settings by clicking the button below and verify if a Wi-Fi network called \"AAWireless-xxxxxx\" or \"AndroidAuto-AAWxxxxx\" is visible.</string>
-    <string name="is_wifi_visible_desc2">Is it visible?</string>
-    <string name="yes">Yes</string>
-    <string name="aa_reset">Open Android Auto settings</string>
+    <string name="troubleshooting">Resolució de problemes</string>
+    <string name="led_color_title">Color del LED?</string>
+    <string name="led_color_desc">Pots comprovar el color del LED del dispositiu?</string>
+    <string name="led_blinking_green">Verd parpellejant</string>
+    <string name="no_blinking_green">No, està parpellejant en verd</string>
+    <string name="led_blinking_blue">Blau parpellejant</string>
+    <string name="no_blinking_blue">No, parpelleja en blau</string>
+    <string name="led_solid_blue">Blau fix</string>
+    <string name="no_solid_blue">No, és blau fix</string>
+    <string name="led_solid_green">Verd fix</string>
+    <string name="led_solid_white">Blanc fix</string>
+    <string name="is_wifi_visible_title">La Wifi és visible?</string>
+    <string name="wireless_projection_auto_title">Projecció sense fils</string>
+    <string name="wireless_projection_auto_desc">Assegura't que la projecció sense fils estigui activada seguint les instruccions següents. A continuació, prem el botó \"Següent\".</string>
+    <string name="contact_support">Contactar amb el suport tècnic</string>
+    <string name="other_issue">Altres problemes</string>
+    <string name="change_bandwidth_title">Wifi 2.4 GHz</string>
+    <string name="change_bandwidth_desc">El vostre mòbil potser només és compatible amb Wifi de 2,4 GHz. Si us plau, utilitza el botó següent per configurar el dispositiu per tal que utilitzi Wifi de 2,4 GHz.</string>
+    <string name="contact_support_title">Contactar amb el suport tècnic</string>
+    <string name="contact_support_desc">Posa't en contacte amb el servei tècnic per obtenir més ajuda.</string>
+    <string name="does_not_work_over_usb_title">Connexió per cable</string>
+    <string name="does_not_work_over_usb_desc">Quan connectes el mòbil a través d'un cable USB, Android Auto funciona correctament?</string>
+    <string name="is_wifi_visible_desc">Si us plau, obre la configuració Wifi fent clic al següent botó i verifica si és visible una xarxa anomenada \"AAWireless-xxxxxx\" o \"AndroidAuto-AAWxxxxx\".</string>
+    <string name="is_wifi_visible_desc2">És visible?</string>
+    <string name="yes">Sí</string>
+    <string name="aa_reset">Obrir la configuració d'Android Auto</string>
     <string name="no">No</string>
-    <string name="usb_c_cable_title">USB-C cable</string>
-    <string name="usb_c_cable_desc">Sometimes disconnections can be caused by the cable. Please try another USB-C cable and press next.</string>
-    <string name="does_it_work_title">Running?</string>
-    <string name="does_it_work_desc">Please re-plug your device. Within one minute Android Auto should start. Please verify if Android Auto is now running correctly.</string>
-    <string name="clear_title">Cache and storage</string>
-    <string name="clear_desc">Please press the button below and clear the storage of Android Auto in \"Storage and cache\", press back twice and press \"Next\" below.</string>
-    <string name="enter_problem_description">Please enter a description of your issue below:</string>
-    <string name="aa_working_title">It works!</string>
-    <string name="aa_working_desc">We are glad you got it working, have fun with your device! If you need further assistance, please use the button below to contact support.</string>
-    <string name="close_troubleshooting">Close troubleshooting</string>
-    <string name="no_device_selected">No device selected, returning to Home</string>
-    <string name="reset_device_title">Reset device</string>
-    <string name="reset_device_desc">Please reset your device to default settings by pressing Next.</string>
+    <string name="usb_c_cable_title">Cable USB-C</string>
+    <string name="usb_c_cable_desc">De vegades, les desconnexions poden ser provocades pel cable. Prova amb un altre cable USB-C i prem Següent.</string>
+    <string name="does_it_work_title">Funciona?</string>
+    <string name="does_it_work_desc">Torna a connectar el dispositiu. En un minut, Android Auto hauria d'iniciar-se. Verifica si aquest cop Android Auto s'executa correctament.</string>
+    <string name="clear_title">Memòria cau i emmagatzematge</string>
+    <string name="clear_desc">Si us plau, prem el següent botó i esborra l'emmagatzematge d'Android Auto a \"Memòria cau i emmagatzematge\", prem enrere dues vegades i prem \"Següent\" a continuació.</string>
+    <string name="enter_problem_description">Introdueix una descripció del problema a continuació:</string>
+    <string name="aa_working_title">Funciona!</string>
+    <string name="aa_working_desc">Ens alegrem que funcioni, diverteix-te amb el dispositiu! Si necessites més ajuda, utilitza el següent botó per contactar amb el suport tècnic.</string>
+    <string name="close_troubleshooting">Tancar la resolució de problemes</string>
+    <string name="no_device_selected">No s'ha seleccionat cap dispositiu, tornant a l'Inici</string>
+    <string name="reset_device_title">Restablir el dispositiu</string>
+    <string name="reset_device_desc">Si us plau, restableix el dispositiu a la seva configuració predeterminada prement Següent.</string>
 </resources>
